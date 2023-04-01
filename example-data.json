@@ -1,35 +1,56 @@
 {
   "title": "Example Radar",
-  "quadrants": ["Quad1", "Quad2", "Quad3", "Quad4"],
+  "quadrants": ["Techniques", "Tool", "Platforms", "Languages & Frameworks"],
   "rings": ["adopt", "trial", "assess", "hold"],
   "blips": [
     {
       "name": "Go",
-      "quadrant": "Quad2",
+      "quadrant": "Languages & Frameworks",
       "ring": "trial",
       "isNew": true,
-      "description": "This is a simple description"
+      "description": "Go go power rangers"
+    },
+    {
+      "name": "Rust",
+      "quadrant": "Languages & Frameworks",
+      "ring": "trial",
+      "isNew": true,
+      "description": "Trust the Rust"
     },
     {
       "name": "JavaScript",
-      "quadrant": "Quad1",
+      "quadrant": "Languages & Frameworks",
       "ring": "adopt",
       "isNew": false,
-      "description": "<p>This is a description</p><p>Formatted into paragraphs</p>"
+      "description": "No BS JS"
     },
     {
-      "name": "Java",
-      "quadrant": "Quad3",
-      "ring": "assess",
+      "name": "TypeScript",
+      "quadrant": "Languages & Frameworks",
+      "ring": "adopt",
       "isNew": false,
-      "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+      "description": "No BS TS"
     },
     {
-      "name": "C++",
-      "quadrant": "Quad4",
-      "ring": "hold",
+      "name": "Node.js",
+      "quadrant": "Languages & Frameworks",
+      "ring": "adopt",
       "isNew": false,
-      "description": "This is another simple description"
+      "description": "Node kidalice"
+    },
+    {
+      "name": "Notion",
+      "quadrant": "Tool",
+      "ring": "adopt",
+      "isNew": false,
+      "description": "Project mgmt"
+    },
+    {
+      "name": "Slack",
+      "quadrant": "Tool",
+      "ring": "adopt",
+      "isNew": false,
+      "description": "Communication tool"
     }
   ]
 }
